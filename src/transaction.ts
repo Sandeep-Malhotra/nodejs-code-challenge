@@ -1,3 +1,6 @@
+/**
+ * Class for transaction - (master)
+ */
 export class Transaction {
   constructor(
     public readonly fromAccount: string, // Account number reference

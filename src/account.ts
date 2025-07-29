@@ -1,3 +1,6 @@
+/**
+ * Class for account - (master)
+ */
 export class Account {
   constructor(public readonly accountNo: string, private _balance: number) {
     if (!this.isValidAccountNo()) {
