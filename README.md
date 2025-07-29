@@ -15,3 +15,13 @@ This project processes transfer of amount from one account to another account
 ## Output
 
 - Output is stored in mable_transactions_results.csv in csv folder after processing of transactions
+
+## How to run
+
+- Run script build and start
+  - npm run build
+  - npm run start
+- Run scrip test to generate test
+  - npm run test
+- To view test results
+  - open file jest_html_reporters.html in browser
