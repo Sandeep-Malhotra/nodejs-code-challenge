@@ -1,0 +1,30 @@
+{
+  "name": "mablecodechallenge",
+  "version": "1.0.0",
+  "description": "Typescript code challenge test",
+  "main": "dist/index.js",
+  "types": "module",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf dist jest-html-reporters-attach",
+    "start": "node dist/index.js",
+    "test": "jest --reporters=default --reporters=jest-html-reporters"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.1.0",
+    "jest": "^30.0.5",
+    "jest-html-reporters": "^3.1.7",
+    "rimraf": "^6.0.1",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "csv-stringify": "^6.6.0"
+  }
+}

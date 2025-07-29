@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // Base Options recommended for all projects
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "es2022",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": false,
+    "sourceMap": true,
+    // Enable strict type checking so you can catch bugs early
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    // Transpile our TypeScript code to JavaScript
+    "module": "commonjs",
+    "outDir": "dist",
+    // Emit type declarations
+    "declaration": true,
+    "lib": ["es2022"]
+  },
+  // Include the necessary files for your project
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
